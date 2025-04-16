@@ -11,7 +11,7 @@ const MovieCard = ({
   release_date,
   original_language,
 }: Movie) => {
-  console.log(poster_path);
+  // console.log(poster_path);
 
   return (
     <Link href={`/movies/${id}`} asChild>
